@@ -53,18 +53,10 @@ export default function PannellumViewer() {
       {/* Logo ที่ด้านขวาล่าง */}
       <div className="absolute bottom-8 right-8 z-10">
         <img 
-          src="/image/fa - Copy.png" 
-          alt="Centrovition.Ai" 
+          src="/image/cenivp.png" 
+          alt="Cenivp" 
           className="h-12 opacity-90 hover:opacity-100 transition-opacity"
         />
-      </div>
-
-      {/* Branding Name */}
-      <div className="absolute bottom-8 left-8 z-10 text-white">
-        <h1 className="text-2xl font-bold tracking-wider">
-          <span className="text-cyan-400">Centrovition</span>
-          <span className="text-white">.Ai</span>
-        </h1>
       </div>
     </div>
   );
