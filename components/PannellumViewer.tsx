@@ -26,7 +26,7 @@ export default function PannellumViewer() {
     script.onload = () => {
       window.pannellum.viewer('panorama-container', {
         type: 'equirectangular',
-        panorama: '/image/front-hotel-noon.jpg',
+        panorama: '/image/Executive Twin Final.jpg',
         autoLoad: true,
         autoRotate: -2,
       });
